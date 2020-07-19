@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Red Rose', cursive;
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction:column;
+    margin:10px;
+    
+}
+
+.top{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1;
+    grid-gap: 10px;
+}
+
+.bottom{
+    display:flex;
+    flex-direction:column;
+    display:flex;
+}
+
+input{
+    height: 1.5em;
+}
+
+button{
+    width: 30px;
+    background-color:white;
+    border: none;
+    color: black;
+    text-align: center;
+}
+
+.output{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top:5px;
+}
+
+.getlang{
+    align-self: flex-end;
+}
